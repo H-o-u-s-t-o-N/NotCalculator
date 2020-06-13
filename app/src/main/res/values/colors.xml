@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#6200EE</color>-->
+    <color name="colorPrimary">#131D39</color>
+<!--    <color name="colorPrimaryDark">#3700B3</color>-->
+    <color name="colorPrimaryDark">#131D39</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="backgroundCalc">#0F2E2B</color>
+    <color name="numberButtonCalc">#206030</color>
+    <color name="actionButtonCalc">#131D39</color>
+    <color name="textCalc">#FBF1FB</color>
+    <color name="iMustUseThisColor">#FF8989AA</color>
+</resources>
