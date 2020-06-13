@@ -32,9 +32,16 @@ class SecondActivity : AppCompatActivity() {
             val intent = Intent()
             var res = 0
 
-            for (number in x..y){
-                if (number % 3 == 0)
-                    res += number
+            if(x < y) {
+                for (number in x..y) {
+                    if (number % 3 == 0)
+                        res += number
+                }
+            }else{
+                for (number in y..x) {
+                    if (number % 3 == 0)
+                        res += number
+                }
             }
             intent.putExtra(MainActivity.RESULT_TYPE_A, res.toString())
             setResult(Activity.RESULT_OK, intent)
